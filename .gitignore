@@ -1,0 +1,13 @@
+# Build outputs and temporary test files
+build/
+dist/
+*.obj
+*.pdb
+*.exp
+*.ilk
+*.old
+*.ppm
+*.rgba
+
+# Reassembled >100MB binary (automatically rebuilt from runtime/nvngx_dlssnr.part1.bin + part2.bin)
+runtime/nvngx_dlssnr.dll
